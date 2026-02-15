@@ -110,7 +110,9 @@ SELECT name, open_mode FROM v$pdbs WHERE name = 'BE_TO_DELETE_PDB_29004';
 ```
 
 **Evidence:**
-- Screenshot: Temporary PDB creation
+<img width="416" height="82" alt="image" src="https://github.com/user-attachments/assets/a88a4e90-7c11-4b9f-805f-df2458aff444" />
+
+
 - Screenshot: PDB existence verification
 - Screenshot: PDB deletion command and success
 - Screenshot: Deletion confirmation (no rows selected)
