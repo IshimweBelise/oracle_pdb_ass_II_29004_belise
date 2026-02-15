@@ -73,11 +73,13 @@ SELECT username FROM dba_users WHERE username = 'BELISE_PLSQLAUCA_29004';
 **Evidence:**
 <img width="388" height="84" alt="image" src="https://github.com/user-attachments/assets/b3469c41-5392-4772-a7fa-1831a4a6aa30" />
 
-
+----
 <img width="415" height="139" alt="image" src="https://github.com/user-attachments/assets/943fc8e9-e0c3-4342-bffb-46895090d31e" />
 
-
+----
 <img width="415" height="61" alt="image" src="https://github.com/user-attachments/assets/2f31c162-c0d7-4aca-9bb8-f7310907457e" />
+
+----
 
 <img width="416" height="78" alt="image" src="https://github.com/user-attachments/assets/76fabdbc-4dcb-4c64-a528-0f8d6dec5df9" />
 
@@ -119,13 +121,14 @@ SELECT name, open_mode FROM v$pdbs WHERE name = 'BE_TO_DELETE_PDB_29004';
 **Evidence:**
 <img width="416" height="82" alt="image" src="https://github.com/user-attachments/assets/a88a4e90-7c11-4b9f-805f-df2458aff444" />
 
+----
 
 <img width="415" height="125" alt="image" src="https://github.com/user-attachments/assets/0a4bd868-2e4c-4e34-8d1e-ac42642814bd" />
 
-
+----
 <img width="416" height="89" alt="image" src="https://github.com/user-attachments/assets/97204ee7-916b-4173-8618-2e12c5ca136f" />
 
-
+----
 <img width="415" height="72" alt="image" src="https://github.com/user-attachments/assets/3f293ce3-3988-4af7-b900-88a0b7a58580" />
 
 ---
