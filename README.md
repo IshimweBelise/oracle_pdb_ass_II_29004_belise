@@ -10,13 +10,13 @@
 
 ---
 
-## Overview
+##  the Overview of the project
 
-This repository contains documentation and evidence for the Oracle Pluggable Database (PDB) Management assignment. The assignment demonstrates practical understanding of Oracle Multitenant Architecture, PDB creation and deletion, user management, and Oracle Enterprise Manager usage.
+This repository contains documentation and evidence for the Oracle Pluggable Database (PDB) Management assignment. The assignment demonstate practical understanding of Oracle Multitenant Architecture, PDB creation and deletion, user management, and Oracle Enterprise Manager usage.
 
 ---
 
-## Oracle Environment
+##  The Oracle Environment
 
 - **Database:** Oracle Database 21c Express Edition
 - **Version:** 21.3.0.0.0
@@ -30,7 +30,7 @@ This repository contains documentation and evidence for the Oracle Pluggable Dat
 
 ### Task 1: Create a New Pluggable Database
 
-**Objective:** Create a permanent PDB with proper naming conventions and user account.
+**Objective:**  To Create a permanent PDB with proper naming conventions and user account.
 
 **Steps Performed:**
 1. Connected to CDB as SYSDBA
@@ -71,15 +71,22 @@ SELECT username FROM dba_users WHERE username = 'BELISE_PLSQLAUCA_29004';
 ```
 
 **Evidence:**
-- Screenshot: PDB creation command and success message
-- Screenshot: PDB in READ WRITE mode
-- Screenshot: User created and verified
+<img width="388" height="84" alt="image" src="https://github.com/user-attachments/assets/b3469c41-5392-4772-a7fa-1831a4a6aa30" />
+
+
+<img width="415" height="139" alt="image" src="https://github.com/user-attachments/assets/943fc8e9-e0c3-4342-bffb-46895090d31e" />
+
+
+<img width="415" height="61" alt="image" src="https://github.com/user-attachments/assets/2f31c162-c0d7-4aca-9bb8-f7310907457e" />
+
+<img width="416" height="78" alt="image" src="https://github.com/user-attachments/assets/76fabdbc-4dcb-4c64-a528-0f8d6dec5df9" />
+
 
 ---
 
 ### Task 2: Create and Delete a PDB
 
-**Objective:** Create a temporary PDB and then delete it completely.
+**Objective:**  To Create a temporary PDB and then delete it completely.
 
 **Steps Performed:**
 1. Connected to CDB root
@@ -113,15 +120,19 @@ SELECT name, open_mode FROM v$pdbs WHERE name = 'BE_TO_DELETE_PDB_29004';
 <img width="416" height="82" alt="image" src="https://github.com/user-attachments/assets/a88a4e90-7c11-4b9f-805f-df2458aff444" />
 
 
-- Screenshot: PDB existence verification
-- Screenshot: PDB deletion command and success
-- Screenshot: Deletion confirmation (no rows selected)
+<img width="415" height="125" alt="image" src="https://github.com/user-attachments/assets/0a4bd868-2e4c-4e34-8d1e-ac42642814bd" />
+
+
+<img width="416" height="89" alt="image" src="https://github.com/user-attachments/assets/97204ee7-916b-4173-8618-2e12c5ca136f" />
+
+
+<img width="415" height="72" alt="image" src="https://github.com/user-attachments/assets/3f293ce3-3988-4af7-b900-88a0b7a58580" />
 
 ---
 
 ### Task 3: Oracle Enterprise Manager (OEM)
 
-**Objective:** Access and document the Oracle Enterprise Manager dashboard.
+**Objective:** To Access and document the Oracle Enterprise Manager dashboard.
 
 **Steps Performed:**
 1. Accessed OEM at https://localhost:5500/em
@@ -138,7 +149,8 @@ SELECT name, open_mode FROM v$pdbs WHERE name = 'BE_TO_DELETE_PDB_29004';
 - PDB visible in Data Storage chart: BE_PDB_29004
 
 **Evidence:**
-- Screenshot: OEM Dashboard with database information and PDB visualization
+
+<img width="415" height="184" alt="image" src="https://github.com/user-attachments/assets/62507c4e-891b-435f-98f0-b359efe9cb14" />
 
 ---
 
@@ -196,11 +208,11 @@ oracle_pdb_ass_II_29004_belise/
 
 ## Academic Integrity Statement
 
-I, Belise (Student ID: 29004), declare that this assignment is my original work. All commands were executed by me individually, and all screenshots are from my own Oracle Database environment. I have not copied from classmates, and I have not used AI tools to generate solutions. This work reflects my own understanding and execution of Oracle Pluggable Database management tasks.
+I ,Ishimwe Belise  29004, declare that this assignment is my original work. All commands were executed by me individually, and all screenshots are from my own Oracle Database environment. I have not copied from classmates, and I have not used AI tools to generate solutions. This work reflects my own understanding and execution of Oracle Pluggable Database management tasks.
 
 ---
 
-## Assignment Deliverables
+## Assignment Deliverables done:
 
 ### PDBs Created:
 - **Permanent PDB:** be_pdb_29004 (READ WRITE mode)
@@ -218,22 +230,9 @@ All screenshots are clearly labeled and demonstrate successful completion of eac
 - **Visibility:** Public
 - **Primary PDB Created:** be_pdb_29004
 - **User Created:** belise_plsqlauca_29004
-- **Assignment Submission Date:** February 2026
-- **GitHub URL:** [To be added after repository creation]
 
----
 
-## Technical Specifications
 
-**Oracle Database Configuration:**
-- Edition: Express Edition (XE)
-- Version: 21.3.0.0.0
-- Data Files Location: C:\ORACLE\ORADATA\XE\
-- Container Database: XE
-
-**System Environment:**
-- Operating System: Microsoft Windows x86 64-bit
-- Oracle Enterprise Manager: Database Express (Port 5500)
 
 ---
 
@@ -241,9 +240,7 @@ All screenshots are clearly labeled and demonstrate successful completion of eac
 
 - Oracle Database 21c Documentation
 - Oracle Multitenant Architecture Guide
-- Oracle Database Administrator's Guide
 - Course materials: Database Development with PL/SQL (INSY 8311)
 
 ---
 
-**End of Documentation**
