@@ -181,13 +181,26 @@ oracle_pdb_ass_II_29004_belise/
 ### Challenge 1: File Path Error
 **Problem:** Initial attempt to create PDB failed with ORA-65165 error due to incorrect file path.
 
+---
+
+<img width="403" height="155" alt="image" src="https://github.com/user-attachments/assets/d3f73035-6c0e-4af3-956a-9d206b44044a" />
+
+---
+
 **Solution:** 
 - Queried v$datafile to identify the correct Oracle data directory path
 - Discovered the correct path: `C:\ORACLE\ORADATA\XE`
 - Used CREATE_FILE_DEST parameter with the correct path
 - Successfully created PDB
 
-### Challenge 2: Understanding Container Context
+  ---
+  
+  <img width="370" height="101" alt="image" src="https://github.com/user-attachments/assets/ae50e47c-20cd-46c1-b6b5-f13543a303ad" />
+
+  ---
+
+
+  ### Challenge 2: Understanding Container Context
 **Problem:** Need to ensure operations are executed in the correct container (CDB vs PDB).
 
 **Solution:**
